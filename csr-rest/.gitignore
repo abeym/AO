@@ -1,5 +1,5 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
+!.gitignore
 
 ### STS ###
 .apt_generated
@@ -26,3 +26,11 @@
 
 ## mvn
 .mvn/
+
+## db
+db/**
+!db/sql/
+db/sql/**
+!db/sql/create-db.script
+!db/sql/create-db.log
+

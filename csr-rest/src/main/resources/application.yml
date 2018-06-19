@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: csr-data-rest
+  datasource:
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
+    jdbcUrl: jdbc:hsqldb:file:db/sql/create-db
+
+server:
+  port: 9080
